@@ -6,10 +6,8 @@
     <link rel="stylesheet" href="style.css"/> 
   
 </head>
-
-
 <header>
-    <nav>
+     <nav>
         <ul>
             <li><a href="home.php">Home</a>&nbsp;&nbsp;</li>
               <li><a href="homeReminder.php">Home Reminders</a>&nbsp;&nbsp;</li>
