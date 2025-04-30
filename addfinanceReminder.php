@@ -3,105 +3,23 @@
 <head>
     <meta charset="utf-8"/>
     <title>Add Home Maintenance Reminder</title>
-    <link rel="stylesheet" href="style.css"/>
- <style>
-        /* Global Styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        header nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        header nav ul li {
-            display: inline;
-            margin-right: 15px;
-        }
-
-        header nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-
-        /* Table Styling */
-        table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            overflow: hidden;
-        }
-
-        table th, table td {
-            padding: 12px;
-            text-align: center;
-            border: 1px solid #ddd;
-        }
-
-        table th {
-            background-color: #4CAF50;
-            color: white;
-        }
-
-        table td {
-            background-color: #f9f9f9;
-        }
-
-        table tr:nth-child(even) td {
-            background-color: #f2f2f2;
-        }
-
-        table tr:hover td {
-            background-color: #ddd;
-        }
-
-        table a {
-            color: #2196F3;
-            text-decoration: none;
-        }
-
-        table a:hover {
-            text-decoration: underline;
-        }
-
-        /* Mobile Responsive */
-        @media (max-width: 768px) {
-            table {
-                width: 100%;
-            }
-            table th, table td {
-                padding: 8px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"/> 
+  
 </head>
-<body>
+
 
 <header>
     <nav>
         <ul>
             <li><a href="home.php">Home</a>&nbsp;&nbsp;</li>
+              <li><a href="homeReminder.php">Home Reminders</a>&nbsp;&nbsp;</li>
             <li><a href="autoReminder.php">Auto Reminders</a>&nbsp;&nbsp;</li>
             <li><a href="financeReminder.php">Finance Reminders</a>&nbsp;&nbsp;</li>
             <li><a href="logout.php">Logout</a>&nbsp;&nbsp;</li>
         </ul>
     </nav>
 </header>
-
+<body>
 <?php
 require('db.php');
 include('authentication.php');
