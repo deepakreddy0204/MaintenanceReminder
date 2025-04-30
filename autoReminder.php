@@ -95,8 +95,8 @@
     <nav>
         <ul>
             <li><a href="home.php">Home</a>&nbsp;&nbsp;</li>
-            <li><a href="financeRemainder.php">Finance Reminders</a>&nbsp;&nbsp;</li>
-            <li><a href="homeRemainder.php">Home Reminders</a>&nbsp;&nbsp;</li>
+            <li><a href="financeReminder.php">Finance Reminders</a>&nbsp;&nbsp;</li>
+            <li><a href="homeReminder.php">Home Reminders</a>&nbsp;&nbsp;</li>
             <li><a href="logout.php">Logout</a>&nbsp;&nbsp;</li>
         </ul>
     </nav>
