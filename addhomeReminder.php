@@ -8,11 +8,12 @@
 <body>
 
 <header>
+   
     <nav>
         <ul>
             <li><a href="home.php">Home</a>&nbsp;&nbsp;</li>
-            <li><a href="reminders.php">My Reminders</a>&nbsp;&nbsp;</li>
-            <li><a href="profile.php">Profile</a>&nbsp;&nbsp;</li>
+            <li><a href="autoRemainder.php">Auto Reminders</a>&nbsp;&nbsp;</li>
+            <li><a href="financeRemainder.php">Finance Reminders</a>&nbsp;&nbsp;</li>
             <li><a href="logout.php">Logout</a>&nbsp;&nbsp;</li>
         </ul>
     </nav>
